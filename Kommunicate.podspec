@@ -12,5 +12,5 @@ Pod::Spec.new do |s|
   s.swift_version = '4.2'
   s.source_files = 'Kommunicate/Classes/**/*.{swift}'
   s.resources = 'Kommunicate/Assets/**/*{lproj,storyboard,xib,xcassets,json,strings}'
-  s.dependency 'ApplozicSwift', '~> 4.0.0'
+  s.dependency 'ApplozicSwift', '~> 4.0.0', :git => 'https://github.com/narendra-movocash/Kommunicate-iOS-SDK.git'
 end
